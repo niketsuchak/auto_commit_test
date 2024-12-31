@@ -7,7 +7,10 @@ int test2() {
 
 int main()
 {
-    int a = int b = int c = 10;
+    int a=10;
+    int b=12;
+
+    cout<<"niket"<<" "<<a+b;
 
     char x;
     char y;
