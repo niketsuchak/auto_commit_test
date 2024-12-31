@@ -1,19 +1,14 @@
-#include<iostream>
+#include <iostream>
+#include<vector>
 using namespace std;
 
-int test2() {
-    return 0;
-}
+int main() {
 
-int main()
-{
-    int a=10;
-    int b=12;
+      // Creating a vector of 5 elements
+      vector<int> v = {1, 4, 2, 3, 5};
 
-    cout<<"niket"<<" "<<a+b;
-
-    char x;
-    char y;
-    char z;
- return 0;
+      for (int i = 0; i < v.size(); i++) {
+        cout << v[i] << " ";
+    }
+      return 0;
 }
