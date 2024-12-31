@@ -8,6 +8,9 @@ int test2() {
 int main()
 {
     int a = int b = int c = 10;
-    
+
+    char x;
+    char y;
+    char z;
  return 0;
 }
